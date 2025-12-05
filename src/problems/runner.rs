@@ -1,4 +1,4 @@
-use crate::problems::{aocday, day00, day01};
+use crate::problems::{aocday, day00, day01, day02};
 use crate::problems::aocday::AoCDay;
 
 pub fn get_days() -> Vec<aocday::AoCDay> {
@@ -13,45 +13,45 @@ pub fn get_days() -> Vec<aocday::AoCDay> {
             part1: Box::new(day01::part1::execute),
             part2: Box::new(day01::part2::execute)
         },
-        // AoCDay {
-        //     day: 2,
-        //     part1: Box::new(day2::part1::execute),
-        //     part2: Box::new(day2::part2::execute)
-        // },
+        AoCDay {
+            day: 2,
+            part1: Box::new(day02::part1::execute),
+            part2: Box::new(day02::part2::execute)
+        },
         // AoCDay {
         //     day: 3,
-        //     part1: Box::new(day3::part1::execute),
-        //     part2: Box::new(day3::part2::execute)
+        //     part1: Box::new(day03::part1::execute),
+        //     part2: Box::new(day03::part2::execute)
         // },
         // AoCDay {
         //     day: 4,
-        //     part1: Box::new(day4::part1::execute),
-        //     part2: Box::new(day4::part2::execute)
+        //     part1: Box::new(day04::part1::execute),
+        //     part2: Box::new(day04::part2::execute)
         // },
         // AoCDay {
         //     day: 5,
-        //     part1: Box::new(day5::part1::execute),
-        //     part2: Box::new(day5::part2::execute)
+        //     part1: Box::new(day05::part1::execute),
+        //     part2: Box::new(day05::part2::execute)
         // },
         // AoCDay {
         //     day: 6,
-        //     part1: Box::new(day6::part1::execute),
-        //     part2: Box::new(day6::part2::execute)
+        //     part1: Box::new(day06::part1::execute),
+        //     part2: Box::new(day06::part2::execute)
         // },
         // AoCDay {
         //     day: 7,
-        //     part1: Box::new(day7::part1::execute),
-        //     part2: Box::new(day7::part2::execute)
+        //     part1: Box::new(day07::part1::execute),
+        //     part2: Box::new(day07::part2::execute)
         // },
         // AoCDay {
         //     day: 8,
-        //     part1: Box::new(day8::part1::execute),
-        //     part2: Box::new(day8::part2::execute)
+        //     part1: Box::new(day08::part1::execute),
+        //     part2: Box::new(day08::part2::execute)
         // },
         // AoCDay {
         //     day: 9,
-        //     part1: Box::new(day9::part1::execute),
-        //     part2: Box::new(day9::part2::execute)
+        //     part1: Box::new(day09::part1::execute),
+        //     part2: Box::new(day09::part2::execute)
         // },
         // AoCDay {
         //     day: 10,
