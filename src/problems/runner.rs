@@ -1,4 +1,4 @@
-use crate::problems::{aocday, day00, day01, day02, day03, day04, day05};
+use crate::problems::{aocday, day00, day01, day02, day03, day04, day05, day06};
 use crate::problems::aocday::AoCDay;
 
 pub fn get_days() -> Vec<aocday::AoCDay> {
@@ -33,11 +33,11 @@ pub fn get_days() -> Vec<aocday::AoCDay> {
             part1: Box::new(day05::part1::execute),
             part2: Box::new(day05::part2::execute)
         },
-        // AoCDay {
-        //     day: 6,
-        //     part1: Box::new(day06::part1::execute),
-        //     part2: Box::new(day06::part2::execute)
-        // },
+        AoCDay {
+            day: 6,
+            part1: Box::new(day06::part1::execute),
+            part2: Box::new(day06::part2::execute)
+        },
         // AoCDay {
         //     day: 7,
         //     part1: Box::new(day07::part1::execute),
@@ -67,61 +67,6 @@ pub fn get_days() -> Vec<aocday::AoCDay> {
         //     day: 12,
         //     part1: Box::new(day12::part1::execute),
         //     part2: Box::new(day12::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 13,
-        //     part1: Box::new(day13::part1::execute),
-        //     part2: Box::new(day13::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 14,
-        //     part1: Box::new(day14::part1::execute),
-        //     part2: Box::new(day14::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 15,
-        //     part1: Box::new(day15::part1::execute),
-        //     part2: Box::new(day15::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 16,
-        //     part1: Box::new(day16::part1::execute),
-        //     part2: Box::new(day16::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 17,
-        //     part1: Box::new(day17::part1::execute),
-        //     part2: Box::new(day17::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 18,
-        //     part1: Box::new(day18::part1::execute),
-        //     part2: Box::new(day18::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 19,
-        //     part1: Box::new(day19::part1::execute),
-        //     part2: Box::new(day19::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 20,
-        //     part1: Box::new(day20::part1::execute),
-        //     part2: Box::new(day20::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 21,
-        //     part1: Box::new(day21::part1::execute),
-        //     part2: Box::new(day21::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 22,
-        //     part1: Box::new(day22::part1::execute),
-        //     part2: Box::new(day22::part2::execute)
-        // },
-        // AoCDay {
-        //     day: 23,
-        //     part1: Box::new(day23::part1::execute),
-        //     part2: Box::new(day23::part2::execute)
-        // },
+        // }
     ]
 }
