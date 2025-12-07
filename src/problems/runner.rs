@@ -1,4 +1,4 @@
-use crate::problems::{aocday, day00, day01, day02, day03, day04, day05, day06};
+use crate::problems::{aocday, day00, day01, day02, day03, day04, day05, day06, day07};
 use crate::problems::aocday::AoCDay;
 
 pub fn get_days() -> Vec<aocday::AoCDay> {
@@ -38,11 +38,11 @@ pub fn get_days() -> Vec<aocday::AoCDay> {
             part1: Box::new(day06::part1::execute),
             part2: Box::new(day06::part2::execute)
         },
-        // AoCDay {
-        //     day: 7,
-        //     part1: Box::new(day07::part1::execute),
-        //     part2: Box::new(day07::part2::execute)
-        // },
+        AoCDay {
+            day: 7,
+            part1: Box::new(day07::part1::execute),
+            part2: Box::new(day07::part2::execute)
+        },
         // AoCDay {
         //     day: 8,
         //     part1: Box::new(day08::part1::execute),
